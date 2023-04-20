@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-image: url("taxi5.jpg");
+}
+
+header {
+	background-color: olivedrab;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+.logo img {
+	height: 50px;
+	margin-right: 10px;
+    width: 200px;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 25px;
+}
+
+.banner {
+	background-color: gray;
+	padding: 54px;
+	text-align: center;
+    margin: 0;
+}
+
+.banner h2 {
+	margin-top: 0;
+    color: white;
+}
+
+.banner p {
+	font-size: 25px;
+	margin-bottom: 40px;
+    
+}
+
+section {
+    color: #fff; 
+}
+
+footer {
+    color: #fff;
+}
